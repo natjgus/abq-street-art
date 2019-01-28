@@ -1,0 +1,71 @@
+
+<main class="gray">
+	<div class="container-fluid p-5">
+		<div class="container-fluid p-2" id="map">
+			<div class="row">
+				<!--<div class="col-12 col-md-3 card">-->
+					<!--<div class="card-block">-->
+						<!--<h4 class="card-title">Find art!</h4>-->
+					<!--</div>-->
+					<!--<form id="form" action="">-->
+						<!--<p>-->
+							<!--<input id="distance" type="number" name="distance" placeholder=" miles from you"/>-->
+						<!--</p>-->
+						<!--<p>-->
+							<!--<input id="type" type="text" name="type" placeholder=" type of art"/>-->
+						<!--</p>-->
+						<!--<button class="btn mb-3" type="submit" value="Search">Search</button>-->
+					<!--</form>-->
+					<!--<ul class="list-group list-group-flush">-->
+						<!--<li class="list-group-item"><a href="#" class="card-link">Murals</a></li>-->
+						<!--<li class="list-group-item"><a href="#" class="card-link">Sculptures</a></li>-->
+						<!--<li class="list-group-item"><a href="#" class="card-link">Photos</a></li>-->
+						<!--<li class="list-group-item"><a href="#" class="card-link">Mosaics</a></li>-->
+						<!--<li class="list-group-item"><a href="#" class="card-link">Metalwork</a></li>-->
+					<!--</ul>-->
+				<!--</div>-->
+				<div class="col-12">
+					<map name="map?"></map>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid p-2">
+			<h1>Featured Art</h1>
+			<div class="row">
+				<div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+					<div class="card h-100">
+						<a [routerLink]="'/art/648fc5d5-d089-4e62-85e0-390a6d1293ba'"><img class="card-img-top" src="../signed-in-homeview/fart_3.jpg" alt="poet's plaza mosaic"></a>
+						<div class="card-body">
+							<h4 class="card-text text-center">Poet's Plaza</h4>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+					<div class="card h-100">
+						<a [routerLink]="'/art/33188ace-b458-4bf9-bfa4-625d66ff1b8d'"><img class="card-img-top" src="../signed-in-homeview/fart_2.jpg" alt="Common Chama Chicken"></a>
+						<div class="card-body">
+							<h4 class="card-text text-center">Common Chama Chicken</h4>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+					<div class="card h-100">
+						<a [routerLink]="'/art/389d3d9b-79ba-4989-9fda-9cf2342baf24'"><img class="card-img-top" src="../signed-in-homeview/fart_4.jpg" alt="You're not from around here image"></a>
+						<div class="card-body">
+							<h4 class="card-text text-center">You're Not From Around Here</h4>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+					<div class="card h-100">
+						<a [routerLink]="'art/83a9408a-8df2-422d-8bec-2af799789b26'"><img class="card-img-top" src="../signed-in-homeview/fart_1.jpg" alt="round about statue"></a>
+						<div class="card-body">
+							<h4 class="card-text text-center">Round About</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+

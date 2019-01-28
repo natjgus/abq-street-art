@@ -1,0 +1,72 @@
+
+
+<main class="gray">
+    <div class="container-fluid p-5">
+        <div class="container-fluid p-2" id="map">
+            <div class="row">
+                <!--<div class="col-12 col-md-3 card">-->
+                <!--<div class="card-block">-->
+                <!--<h4 class="card-title">Find art!</h4>-->
+                <!--</div>-->
+                <!--<form id="form" action="">-->
+                <!--<p>-->
+                <!--<input id="distance" type="number" name="distance" placeholder=" miles from you"/>-->
+                <!--</p>-->
+                <!--<p>-->
+                <!--<input id="type" type="text" name="type" placeholder=" type of art"/>-->
+                <!--</p>-->
+                <!--<button class="btn mb-3" type="submit" value="Search">Search</button>-->
+                <!--</form>-->
+                <!--<ul class="list-group list-group-flush">-->
+                <!--<li class="list-group-item"><a href="#" class="card-link">Murals</a></li>-->
+                <!--<li class="list-group-item"><a href="#" class="card-link">Sculptures</a></li>-->
+                <!--<li class="list-group-item"><a href="#" class="card-link">Photos</a></li>-->
+                <!--<li class="list-group-item"><a href="#" class="card-link">Mosaics</a></li>-->
+                <!--<li class="list-group-item"><a href="#" class="card-link">Metalwork</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <div class="col-12">
+                    <map name="map?"></map>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-2">
+            <h1>Bookmarked Art</h1>
+            <div class="row">
+                <div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+                    <div class="card h-100">
+                        <a [routerLink]="'/art/35f1880e-868e-4759-9cfd-264f1c84e04a'"><img class="card-img-top" src="dreams-and-nightmares.jpg" alt="poet's plaza mosaic"></a>
+                        <div class="card-body">
+                            <h4 class="card-text text-center">Dreams & Nightmares: Journey of a Broken Weave</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+                    <div class="card h-100">
+                        <a [routerLink]="'/art/3a39b266-366b-48cb-9559-ee1ddc2bec3c'"><img class="card-img-top" src="yei-be-chei.jpg" alt="Common Chama Chicken"></a>
+                        <div class="card-body">
+                            <h4 class="card-text text-center">Yei Be Chei Central</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+                    <div class="card h-100">
+                        <a [routerLink]="'/art/de912205-d478-47bd-a922-7391d1515afc'"><img class="card-img-top" src="dazzlerazzle.jpg" alt="Dazzle Razzle photo"></a>
+                        <div class="card-body">
+                            <h4 class="card-text text-center">Dazzle Razzle</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-xs-12 col-sm-6 col-md-3 p-2">
+                    <div class="card h-100">
+                        <a [routerLink]="'art/052ce171-1b40-4339-9852-f0ec81fdca0c'"><img class="card-img-top" src="queen-of-hearts.jpg" alt="round about statue"></a>
+                        <div class="card-body">
+                            <h4 class="card-text text-center">Queen of Hearts in Red Field</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
