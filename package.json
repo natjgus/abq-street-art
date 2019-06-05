@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "author": {
     "name": "Dylan McDonald, Samantha Andrews, Nathaniel Gustafson, Mary MacMillan, Erin Scott",
-    "email": "dylan@deepdivedylan.io",
+    "email": "nat@natgus.com",
     "url": "https://abqstreetart.com/"
   },
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samanthaandrews/abq-street-art"
+    "url": "https://github.com/natjgus/abq-street-art"
   },
   "dependencies": {
     "@angular/common": "^5.2.8",
